@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Java Script</title>
+    <!-- bootstrap css link below -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png" />
+  </head>
+  <body>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-12">
+          <pre class="Sp_h1">Hello guys welcome to my website!!</pre>
+        </div>
+      </div>
+    </div>
+    <!-- content strt  -->
+    <div class="container-fluid">
+      <div class="row">
+        <!-- first  -->
+        <section class="mt-5 mb-4" style="border-bottom: 3px solid ;">
+          <div class="col-4 float-start">
+            <h2 class="topic_h">We can display data in 4ways in js</h2>
+            <ol>
+              <li>innerHTML</li>
+              <li>document.write()</li>
+              <li>window.alert()</li>
+              <li>console.log()</li>
+            </ol>
+          </div>
+          <div class="col-8 float-end">
+            <p>
+              1. You can use it to get the internal HTML content of any HTML
+              element as an HTML string.You can also use it to set or change
+              elements' innerHTML content.
+            </p>
+            <p>2. Eta amakai seperate page a niye jabe contnt dekabar jonno.</p>
+            <p>
+              3. Ekta window pop up msg dhekai when we visit our website...it is
+              sought of like bootstrap modal.
+            </p>
+            <p class="mb-0">4. Console is mostly use for bug fixing.</p>
+          </div>
+        </section>
+        <!-- second  -->
+        <section class="mb-4" style="border-bottom: 3px solid ;">
+          <div class="col-6 float-start js_strt">
+            <h1 class="topic_h text-center">JS Statement</h1>
+            <p>Computer program is like a list of instruction to be done by the computer and this instruction are called statements.<b>JS program is full of statements('INSTRUCTION')</b></p>
+            <ol>
+              <th>JS Statements Consist Of..</th>
+              <li>Values</li>
+              <li>Operators [+ _ * / %]</li>
+              <li>Expressions</li>
+              <li>Keywords [It identify the JavaScript action to be performed.]</li>
+              <li>Comments</li>
+            </ol>
+          </div>
+          <div class="col-6 float-end">
+            <h1 class="topic_h text-center">JS Variables</h1>
+            <p>Varible are like containers which store data in it...in 4ways we can declare variables-
+              <ol>
+                <li>Automatically</li>
+                <li>Using <b>var</b></li>
+                <li>Using <b>let</b></li>
+                <li>Using <b>const</b></li>
+              </ol>
+              1. It happens when we dont declare any variables (var, let and const).
+              <br>
+              <h4 class="examples mt-2 mb-0">EXAMPLE-1(How to add no.'s')</h4>
+              <br>
+              <code>a = 90 b = 50 c = a + b</code>
+              <p id="ex_1" class="m-0">Total price of household = </p>
+              <button onclick="ex_1_btn()" class="btn btn-dark">See the total</button>
+              <button onclick="ex_1_rest()" class="btn btn-dark">Reset</button>
+            </p>
+          </div>
+          <div class="col-6 float-start">
+            <h1 class="topic_h text-center">Declare JS Variables</h1>
+            <img src="img/d_var.png" alt="">
+            <p><b>Note - Re-declare a JavaScript variable with var, it will not lose its value but not with let or const because it will not work</b></p>
+            <h4 class="examples mt-2 mb-0">EXAMPLE-2(How to add name)</h4>
+            <p>My name is <b id="ex-2"></b> did not used empty double quotation between words</p>
+            <p>My name is <b id="ex_2"></b> used empty double quotation between words
+            </p>
+            <b>Note - If you put a number in quotes, the rest of the numbers will be treated as strings(letters) and concatenated(Is the operation of joining two strings together.).</b>
+          </div>
+          <div class="col-6 float-end">
+            <h4 class="examples mt-2 mb-0">EXAMPLE-3</h4>
+            <p class="text-danger text-center">Click the button to see date and doubleclick to reset it</p>
+            <button onclick="showDate()" ondblclick="resetDate()" class="btn btn-dark">Date Reveal</button>
+            <h2 id="dt_btn" class="text-center">DATE</h2>   
+            <!-- ex-4 -->
+            <div class="float-start" style="width: 49%;">
+            <h4 class="examples mt-2 mb-0">EXAMPLE-4</h4>
+            <p class="text-danger">Click to on the bulb</p>
+            <button onclick="bulbOn()" class="btn btn-dark">ON</button>
+            <button onclick="bulbOff()" class="btn btn-dark">OFF</button>
+            <img id="bulb_img" src="img/off.gif" alt="javascript">
+            </div>
+            <!-- ex-5  -->
+            <div class="float-end" style="width: 49%;">
+            <h4 class="examples mt-2 mb-0">EXAMPLE-5</h4>
+            <p class="text-danger">Click to to select your season</p>
+            <img id="img_btn" src="img/winter.jpeg" alt="javascript">
+            <button onclick="c_img()" class="btn btn-dark">NEXT</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="container">
+      <!-- ex-6  -->
+      <h4 class="examples mt-2 mb-0">EXAMPLE-6(How to hide text)</h4>
+      <p class="text-danger">Change display of text</p>
+      <button onclick="show()" class="btn btn-dark">show</button>
+      <button onclick="hide()" class="btn btn-dark">show</button>   
+      <p id="text_hide">Hello guys</p>  
+      <br>
+      <!-- ex-7  -->
+      <h4 class="examples mt-2 mb-0">EXAMPLE-7(How to do calcu in js)</h4>
+      <p class="text-danger" id="add_no">Adding no.</p>
+      <button onclick="addingNo()" class="btn btn-dark">Click</button>
+      <button onclick="addNore()" class="btn btn-dark">Reset</button>
+      <!-- demo  -->
+      <p class="text-danger" id="add_no_2">Adding no. 2</p>
+      <button onclick="varOutput()" class="btn btn-dark">Click</button>
+      <!-- ex-8  -->
+      <h4 class="examples mt-2 mb-0">EXAMPLE-8(EventListener)</h4>
+      <p class="text-danger" id="event_p">let try to hide this </p>
+      <button class="btn btn-dark" id="event_btn">Click</button>
+    </div>
+    <!-- bootstrap js link below  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
