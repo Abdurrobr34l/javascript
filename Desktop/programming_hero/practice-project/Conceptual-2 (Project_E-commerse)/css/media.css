@@ -1,0 +1,201 @@
+/* *MOBILE */
+/* *TABLET */
+@media (min-width: 576px) and (max-width: 1023.98px) {
+  .w-78 {
+    width: 85%;
+  }
+  /* *HEADER START */
+  .header {
+    margin: 40px 0 60px;
+  }
+  .header__container {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 20px;
+  }
+  .header__logo {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+  }
+  .header__search-box {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    width: 60%;
+  }
+  /* *HEADER END */
+  /* *CATEGORIES START */
+  .categories {
+    padding: 60px 0 50px;
+  }
+  .categories__boxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .categories__boxes a {
+    padding: 15px 30px;
+  }
+  /* *CATEGORIES END */
+  /* *SHOES START */
+  .shoes__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* *SHOES END */
+  /* *CTA START */
+  .cta {
+    /* *CTA END */
+  }
+  .cta__email button {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+}
+/* *LAPTOP */
+@media (min-width: 1024px) and (max-width: 1279.98px) {
+  .w-78 {
+    width: 78%;
+  }
+  /* *HEADER START */
+  .header__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    gap: 20px;
+  }
+  .header__logo {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+  }
+  .header__search-box {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    width: 100%;
+  }
+  /* *HEADER END */
+  /* *CATEGORIES START */
+  .categories {
+    padding: 60px 0 50px;
+  }
+  .categories__boxes {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .categories__boxes a {
+    padding: 15px 30px;
+  }
+  /* *CATEGORIES END */
+  /* *SHOES START */
+  .shoes__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /* *SHOES END */
+  /* *CTA START */
+  .cta {
+    /* *CTA END */
+  }
+  .cta__email button {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+}
+/* *DESKTOP */
+@media (min-width: 1280px) {
+  .w-78 {
+    width: 78%;
+  }
+  /* *HEADER START */
+  .header__container {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 20px;
+  }
+  .header__logo {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+  }
+  .header__search-box {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    width: 100%;
+  }
+  .header__nav .menu {
+    display: block;
+  }
+  .header__cart-wishlist .toggler {
+    display: none;
+  }
+  /* *HEADER END */
+  /* *HERO START */
+  .hero__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 50px;
+    padding: 40px 60px;
+  }
+  .hero__contents h1 {
+    font-size: 3.5rem;
+    line-height: 60px;
+  }
+  .hero__contents p {
+    font-size: 1rem;
+    width: 80%;
+  }
+  .hero__image img {
+    height: 400px;
+  }
+  /* *HERO END */
+  /* *CATEGORIES START */
+  .categories {
+    padding: 60px 0 10px;
+  }
+  .categories__boxes {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .categories__boxes a {
+    padding: 15px 30px;
+  }
+  /* *CATEGORIES END */
+  /* *SHOES START */
+  .shoes__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .shoes__grid .shoes-box h3 {
+    font-size: 1.5rem;
+  }
+  /* *SHOES END */
+  /* *CTA START */
+  .cta {
+    /* *CTA END */
+  }
+  .cta__email button {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+}
+/* *EXTRA-LARGE DESKTOP */
