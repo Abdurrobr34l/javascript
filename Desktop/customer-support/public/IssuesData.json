@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1001,
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still can't access.",
+    "customer": "John Smith",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": 1002,
+    "title": "Page Load Error - Dashboard Not Displaying",
+    "description": "Dashboard page does not load for some users, showing a blank screen or loading spinner indefinitely.",
+    "customer": "Alice Johnson",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "2024-01-16"
+  },
+  {
+    "id": 1003,
+    "title": "Payment Failed - Checkout Issue",
+    "description": "Payments are failing for multiple users during checkout. Error code 402 appears on submission.",
+    "customer": "Bob Brown",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "2024-01-17"
+  },
+  {
+    "id": 1004,
+    "title": "Password Reset Email Not Received",
+    "description": "Customer requests a password reset but does not receive the email, even after multiple attempts.",
+    "customer": "Clara Wilson",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "2024-01-18"
+  },
+  {
+    "id": 1005,
+    "title": "Profile Picture Upload Fails",
+    "description": "Uploading profile pictures results in an error for some users. The file size and format are correct.",
+    "customer": "David Lee",
+    "priority": "LOW",
+    "status": "Open",
+    "createdAt": "2024-01-19"
+  },
+  {
+    "id": 1006,
+    "title": "Notification Settings Not Saving",
+    "description": "Changes to notification preferences are not saved. Users report the settings revert to default after refreshing.",
+    "customer": "Emma Davis",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "2024-01-20"
+  },
+  {
+    "id": 1007,
+    "title": "Search Function Returns No Results",
+    "description": "Searching for existing tickets returns empty results for some users despite valid queries.",
+    "customer": "Frank Miller",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "2024-01-21"
+  },
+  {
+    "id": 1008,
+    "title": "Unable to Download Invoice PDF",
+    "description": "Clicking download for invoice PDF fails and displays an unknown error message.",
+    "customer": "Grace Lee",
+    "priority": "LOW",
+    "status": "Open",
+    "createdAt": "2024-01-22"
+  },
+  {
+    "id": 1009,
+    "title": "Incorrect Total on Checkout",
+    "description": "Cart shows incorrect total after applying discounts. Users are being charged wrong amounts.",
+    "customer": "Henry Wilson",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "2024-01-23"
+  },
+  {
+    "id": 1010,
+    "title": "Reset Password Fails with Error 403",
+    "description": "Users trying to reset password receive a 403 error, preventing password update.",
+    "customer": "Isabella Moore",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "2024-01-24"
+  },
+  {
+    "id": 1011,
+    "title": "Slow Dashboard Loading",
+    "description": "Dashboard page is loading very slowly for users, taking more than 30 seconds in some cases.",
+    "customer": "Jack Taylor",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "2024-01-25"
+  },
+  {
+    "id": 1012,
+    "title": "Form Submission Error",
+    "description": "Submitting feedback forms returns an unknown error preventing users from submitting requests.",
+    "customer": "Karen Thomas",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "2024-01-26"
+  },
+  {
+    "id": 1013,
+    "title": "Missing Translations in Spanish Version",
+    "description": "Some UI texts are not translated in Spanish, causing confusion for Spanish-speaking users.",
+    "customer": "Leo Martin",
+    "priority": "LOW",
+    "status": "Open",
+    "createdAt": "2024-01-27"
+  },
+  {
+    "id": 1014,
+    "title": "Button Overlaps on Mobile",
+    "description": "UI buttons overlap on mobile devices in portrait mode, making it hard to click.",
+    "customer": "Mia Anderson",
+    "priority": "LOW",
+    "status": "Open",
+    "createdAt": "2024-01-28"
+  },
+  {
+    "id": 1015,
+    "title": "Resolved/In Progress Ticket Count Mismatch",
+    "description": "Banner counts for resolved and in-progress tickets do not match the actual tickets in the lists.",
+    "customer": "Nathan White",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "2024-01-29"
+  }
+]
